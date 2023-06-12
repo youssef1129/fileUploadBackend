@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+    server:
+      environment:
+        DIR_PATH: C:\Users\HUAWEI\Desktop\
+      build: 
+        context: .
+        args:
+         DIR_PATH: C:\Users\HUAWEI\Desktop\
+      ports:
+        - 4700:4700
